@@ -47,7 +47,7 @@ npm start
 
 ## 🌍 Live Demo  
 
-👉 [View Portfolio](your-live-link-here)  
+👉 [View Portfolio]https://stellar-sherbet-652eb5.netlify.app  
 
 ---
 
