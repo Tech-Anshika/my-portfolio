@@ -41,7 +41,11 @@ npm start
 
 ## 📸 Screenshots  
 
-(Add some cool retro-game screenshots of your portfolio here 🎮)  
+(<img width="1919" height="876" alt="Screenshot 2025-09-24 191226" src="https://github.com/user-attachments/assets/46dc08be-06db-4191-806a-fda4b014742a" />
+<img width="1918" height="868" alt="Screenshot 2025-09-24 191319" src="https://github.com/user-attachments/assets/4e5b4ddc-8b54-4e95-8630-88cfd632771a" />
+<img width="1919" height="867" alt="Screenshot 2025-09-24 191343" src="https://github.com/user-attachments/assets/eed87bdc-da66-4fa1-95d1-76bb8b599e46" />
+<img width="1919" height="850" alt="image" src="https://github.com/user-attachments/assets/c5ccb7d1-cd30-4912-a170-f0570c4735ad" />
+)  
 
 ---
 
