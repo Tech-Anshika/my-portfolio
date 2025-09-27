@@ -1,25 +1,31 @@
-name: Deploy React App to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches:
-      - main  # deploy when main branch updates
+      - main   # ya jo bhi aapki default branch hai
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Setup Node.js
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: '18'   # React 18+ ke liye safe version
+
       - name: Install dependencies
-        run: npm install
-      - name: Build
-        run: npm run build
-      - name: Deploy
+        run: npm install --prefix frontend
+
+      - name: Build project
+        run: npm run build --prefix frontend
+
+      - name: Deploy to GitHub Pages 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages
-          folder: build
+          branch: gh-pages        # deploy branch
+          folder: frontend/build  # build output folder
+
