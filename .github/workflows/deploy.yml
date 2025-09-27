@@ -28,4 +28,5 @@ jobs:
         with:
           branch: gh-pages        # deploy branch
           folder: frontend/build  # build output folder
+          token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
 
